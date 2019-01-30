@@ -27,6 +27,17 @@ function johnLennonFacts(facts){
   }
   return newArr
 }
+
+
+function iLoveTheBeatles(num){
+  var newArr = []
+  do {
+    newArr.push("I love the Beatles!")
+  } while(num < 15){
+    num++
+  }
+  return newArr
+}
 /*
   describe('iLoveTheBeatles', function() {
     it("returns an array of 'I love the Beatles!' 8 times when passed the parameter 7 ", function() {
